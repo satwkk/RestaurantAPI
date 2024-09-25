@@ -1,0 +1,104 @@
+@HostAddress = http://localhost:5011
+@token = CfDJ8G0TEbFIgStBhxaWV5FE3LGA7YZNBbN3ojwA9ykKob_LYuK1LfKg7MrK5KnQxtPcb7fyLXVJe7xI0zKM8zfgRSF5aGPsTX2At3JA7N8yBbC-eF8D0peiV1QVAeHz85aI7vmj1oGzkpvxWayki2O37mu_bC5jtrjeJqNSPsXmVsvu7FfV8CSuq_LhCTwwDSWAaA4GnvnDC_p-F4zsfoKgUsASJ9aecYP7iQdeAVD5jsR2DmUI5KNf4lLGGZixccPN0v0zAF6tOFfft7-CUASDBiWmNGRwlozX6EeMRglsrQyy3NETbvW6oMUqHpcoSglFGAte1L29zszY_m8M0fTEY0KYo9lXNvfD2PI1va96pFMz0n1HlczOvKITySQrS-9LSaQ22zcZ_9QRY_VCSTFzNMi1s_OQvtT-1r-GxnkVbIh22oohf8iDp0j62oQ8m2gckQ8TpJNznijcalgY1taitud3ORjCVjljmom2I9a6v_XP9CX54tLGx2JftCwBdKPi9QGgUyH078yksOQXlUeDtkkZyLvwntJKbI2wRFRuaa4CI1hl2sKqBgTd6XnchJ-CWI6N9WjtQYl33mD9rU2XrvUCUJIZWLUtfiDsidwth2t1eIl3XQrgouCfEyu9kyM-gCAIoUDutsLIFoDN7b0qnPnLlMbKDkAw9JXEQeFrAWZGo1LWk0qjrshKdsi9AkVugg
+
+GET {{HostAddress}}/api/restaurants
+Authorization: Bearer {{token}}
+
+###
+GET {{HostAddress}}/api/restaurants
+
+###
+GET {{HostAddress}}/api/restaurants/3
+
+###
+DELETE {{HostAddress}}/api/restaurants/5000
+
+###
+PATCH {{HostAddress}}/api/restaurants/3
+Content-Type: application/json
+
+{
+  "Name": "Changed Name",
+  "Description": "Changed Description",
+  "HasDelivery": true
+}
+
+###
+PATCH {{HostAddress}}/api/restaurants/7
+Content-Type: application/json
+
+{
+}
+
+###
+POST {{HostAddress}}/api/restaurants
+Content-Type: application/json
+
+{
+  "Name": "Crispy Bites",
+  "Description": "A culinary experience like no other",
+  "Category": "Indian",
+  "HasDelivery": true,
+  "ContactEmail": "info@crispybites.com",
+  "ContactNumber": "555-123-4567",
+  "City": "Keonjhar",
+  "Street": "Gandhi Chowk Keonjhar",
+  "PostalCode": "75-800"
+}
+
+###
+POST {{HostAddress}}/register
+Content-Type: application/json
+
+{
+  "email": "testuser@test.com",
+  "password": "Password1!"
+}
+
+###
+@restaurantId = 1
+POST {{HostAddress}}/api/restaurant/{{restaurantId}}/dishes/
+Content-Type: application/json
+
+{
+  "Name": "Chilly Chicken",
+  "Description": "Crispy chicken marianted with soy sauce fried with onion and capsicums.",
+  "Price": 80
+}
+
+###
+GET {{HostAddress}}/api/restaurant/{{restaurantId}}/dishes/
+
+###
+GET {{HostAddress}}/api/restaurant/{{restaurantId}}/dishes/1
+
+###
+DELETE {{HostAddress}}/api/restaurant/{{restaurantId}}/dishes/1
+
+###
+POST {{HostAddress}}/register
+Content-Type: application/json
+
+{
+  "email": "testuser2@test.com",
+  "password": "Password1!"
+}
+
+###
+POST {{HostAddress}}/login
+Content-Type: application/json
+
+{
+  "email": "testuser@test.com",
+  "password": "Password1!"
+}
+
+###
+PATCH {{HostAddress}}/api/identity/user
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "dateOfBirth": "2001-03-04",
+  "nationality": "Indian"
+}
