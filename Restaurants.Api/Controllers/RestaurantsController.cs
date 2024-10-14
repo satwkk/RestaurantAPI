@@ -6,6 +6,7 @@ using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
 using Restaurants.Application.Restaurants.Commands.DeleteRestaurant;
 using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 using Microsoft.AspNetCore.Authorization;
+using Restaurants.Domain.Constants;
 
 namespace Restaurants.Api.Controllers;
 
@@ -22,6 +23,7 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [Authorize(Policy = "HasNationality")]
     public async Task<IActionResult> GetById( [FromRoute] int id )
     {
         var restaurant = await mediator.Send(new GetRestaurantByIdQuery(id));
@@ -34,6 +36,7 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Roles = UserRole.Owner)]
     public async Task<IActionResult> CreateRestaurant( CreateRestaurantCommand createRestaurantCommand)
     {
         var createdId = await mediator.Send(createRestaurantCommand);

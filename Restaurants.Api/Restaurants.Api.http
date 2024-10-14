@@ -1,5 +1,14 @@
 @HostAddress = http://localhost:5011
-@token = CfDJ8G0TEbFIgStBhxaWV5FE3LGA7YZNBbN3ojwA9ykKob_LYuK1LfKg7MrK5KnQxtPcb7fyLXVJe7xI0zKM8zfgRSF5aGPsTX2At3JA7N8yBbC-eF8D0peiV1QVAeHz85aI7vmj1oGzkpvxWayki2O37mu_bC5jtrjeJqNSPsXmVsvu7FfV8CSuq_LhCTwwDSWAaA4GnvnDC_p-F4zsfoKgUsASJ9aecYP7iQdeAVD5jsR2DmUI5KNf4lLGGZixccPN0v0zAF6tOFfft7-CUASDBiWmNGRwlozX6EeMRglsrQyy3NETbvW6oMUqHpcoSglFGAte1L29zszY_m8M0fTEY0KYo9lXNvfD2PI1va96pFMz0n1HlczOvKITySQrS-9LSaQ22zcZ_9QRY_VCSTFzNMi1s_OQvtT-1r-GxnkVbIh22oohf8iDp0j62oQ8m2gckQ8TpJNznijcalgY1taitud3ORjCVjljmom2I9a6v_XP9CX54tLGx2JftCwBdKPi9QGgUyH078yksOQXlUeDtkkZyLvwntJKbI2wRFRuaa4CI1hl2sKqBgTd6XnchJ-CWI6N9WjtQYl33mD9rU2XrvUCUJIZWLUtfiDsidwth2t1eIl3XQrgouCfEyu9kyM-gCAIoUDutsLIFoDN7b0qnPnLlMbKDkAw9JXEQeFrAWZGo1LWk0qjrshKdsi9AkVugg
+
+# OWNER TOKEN
+# @token = CfDJ8G0TEbFIgStBhxaWV5FE3LELVwWOUjjGGgpiKFo6_7j0p7Ahunmv8g3HMlJcqnuPsoh-2FGeWF1MwOsCdDHvzL7XPGFDnKxijV5eMCs2lmcQUfmGj4t00_ZaxhEYniK2WEMgAiLyscOng0Da0VJXiZMgwR-afkPiVT061UoMkI4i5JEjHWIbZBYelf3NK3hPRaQhNaUljxJq-loxKTlzqeRL0J0CyKEY1lcY_6a_vo-49Umk3aEfQFQPYGGYp6Od0zg1dGl_oATW1LOiYkP7iwzqYnKKskU2MqJJJvhFZ-Sj7iL14STRxha42s-Y3jqXuDqu-FJrUqf76g3tbiJyF5AwfRg8IYrpY6_P7O1jFeU2aL7dmAuEyPIkyz1hz7h2LTcv-rB-IxQ4ej8ozqgfa4Jws0gKVFyIMYvk6awmGJB-lDui73Hp3KFrmnbn-RZQSWb2CIyqQjpIlLBh-pPcnfx4CvJzV-FHG5bPCkbFSpJCMB-UpbyUgBAcWZrPjxWNxg0nyK0hRSGL_XAuS-9vHf9FLswRhGzjKC0wpl-qcD1FLBAawSqeT5ErSUEvatDjekpP_sq46gq54OYY77xV1GEvMcrkUyeppFJU-r4bHogOBTppcCy1FWCHhLrqXHHF_0zhbRPow1F0s3yDRqIH3b7KYypGpD6Si8C3OAvlBXSdVRCQfTWNAfOQZmnSI7GAWgraSO4pVopvFkEvEYJfPAaK8xOMicZvNbJJYSw3hFzcAimRxKWfYEXy_l-rS2YhsufwRXldF1qM7vEH5gKMk6l9MUE6E5qH4nCRkvDmHt0p
+
+# USER TOKEN
+# @token = CfDJ8G0TEbFIgStBhxaWV5FE3LFDjtLxB2Lb_d2Iv2PqG2NLORYIqtfn1nDagdnz19wg0Ggs87kXvEtiH0FCsMLI9jRwLHwHSjymVGBfwSZMhbMoa6hiiTzOsY9T1SQfmpxzBqAWpvCWcEAQpk0BkK0RHEUL68wdgsTE_5di1-_RFfM84zpQuOCWEZYTMUDj_KpzoewsfKJzbVQBdafQ8zB322jUC2AneYAa253DbB8MTBZ85eVXCrMCAl0RMbmmD-XIhRDdxAl1_zRwOorfKDUJqUvDONyj6VI-kc0fqEKBmYTinzNMa0wQZruul5-S6-tlAX8HPMA1lPCE4Mj4Yeg4wCX-ceTH02OvjDYGF1iGNM1OKLw17uI7lI2LogLl24jSauB_mJgcERg0_oAskqUOU_3zIrZ3Ik5t2qroiDHqf_UcgaV7bswXBFhcMK-Cz26Q2qTJ3Hah9tbkPAUKd5AOJDTOZRsD1M1z2ZNwyDf7bdtt8v5LrD5ug5IeATh76CBBfGYq6xKi3cGPMLAxFaUeptSc6AV2AnxCIn5NqEVVegymN1dowJS3xRelat4o5Ndmj0Yv1Mhs5carV8xFTkLo64GKzUtTMVDaOxrsuhg2ppQKbD4MYR4i9_6QsFchrnvafwejzS_0lB1oT4bU1dqgRZEg0pO5nZVmclI4ZBoJsrjOL3WT97ZniiCyRlpXxIA9nA
+
+@token = CfDJ8G0TEbFIgStBhxaWV5FE3LEphWDhRvfzBO_vSwLpzTvhk0dNjD2Xt4bHs1o_8UgjKZADGPhnMOR_92pBKKl58tReiCVx-skQ-bp9tJnQPksbfN_f2DKbdHuoJX8nXXS6qal2cDa5FhVdbi8tL3oJ-08Mrz_xp7_i_ZZsMBl96vrXKFyy4b64r4FHB5dprFskZuq9vmnQLrpt-_l9dSG8Bh1nkgQGQcbt7jsEr0vvSDt6cO03Yr-_d7qAtpe-4rQtHCRvVmXAbcR6-VbgnYej0no9PI5omLxFFT_twJSipTavmcfZctk11kxHLZsdKO-UZTn0RSpvYLOJuW_boZxwGWaIq3Vu0snUUdzn6W_BB3CR-4Yhy3x4P-PgJkOfMN_srIzbvfBnh33UhKu_kCJ_JBR28b-oePp3PaFzbjV7T2mXpkAu76SOkF98EvG-siowZL7IZbIY42tQrRuAfChWwyUIAxCA9aPew0eTaLXvL8ljHtyPpFjn_vuzaHjZjmecTn8TxSgCTI14x7FjxNlXGteQ60qZ_1DS6cLjnNx9c32haqZvPP6ihMGwX4tZ-GBpJdoyIGN3y7SvtyBYs_s6Z0uR2v4l6AUJ2RyhDn1CI3BkBJIxynjk23kX7_8Qc95QhrMnqSntWB_25J3GS-5C2158cQ0c6UNHDJ-BGzq5u-s9quBce2zzypFb-ONbXAQiHL5klfvosoywI7QqdTReKQusjweoB0CHhwo1XxWrUxlZ2vhfeqT3uoizExOdNIedovBjSYvpjmavetLeGjvjCk6ithhjqy7M7kjgWP66LpwN
+
+@token2 = CfDJ8G0TEbFIgStBhxaWV5FE3LE42RuJbUiRPwKX52Gszaem0W4C0bxZkwj00URYsUcYkndNDWAtlUkF-pWv_iYTGYq2hAwdmTPQWFzGwCGfJmaKsy8IXl9Xa83H4dN4xQXJ0ZWTmwMqcRWN9ZBH4kxwc5d2nF6bN4ZgTMemmFn67NAdOSQRKZnIreh9RgMK12jcl2ZzwSIri8x-ZU9auAwAXfi7ai3Ky8NGahEVDH4maAWEjlbi-Fs4cHNnPmM-e_nVP_gjSixEOGTrLHH9qUEuhbRHhPy2oBuMBZBgnXf-piJk4-pp_FFLZ8ayZJQBKWvlKc2xeWwYsxG6frguwr1vgxrUeiEXQxGwE3TUXJD-owqcT8ySKlwQLLpaNVV7wPkGFunqOZnNZjbD2qX37wOeMDkfO1h7rzAaekdAjLyTEAZxgGmj6kgzkNO05YUZrwEc48Qq-y_BLoqYIS4frdds3e3A1SkZWIMHXi_K6hPvVg919rect6gEN6x14tSGggY3gqNR-8hYrKK0ZyzmkzR6jIst48AvovBC21t-Uefv9RRpFxG1ihArATc-Cayt1syyAc8jcIAzzjXitPODs6f3s8Zh1wisTqY1RvhDy3HJgHpiRdI4X2pqGNxS1piCZmqtM60SgScykJT3bRaWIR-b4qWlOF3VD3eoJ3KbBr87373wxjw1Qxy1Z4l0eHqJjiyG0Hwv3h2qp4T6gxaM-VKcoDD78lcoi9HRr-PCyyACvDPX7GGRuDngJ07lwyP_BoarsKdWxqY1Yg_gmykgdchAsjeG3OLQJa5j7sf_UJdrq4zw
 
 GET {{HostAddress}}/api/restaurants
 Authorization: Bearer {{token}}
@@ -8,7 +17,9 @@ Authorization: Bearer {{token}}
 GET {{HostAddress}}/api/restaurants
 
 ###
-GET {{HostAddress}}/api/restaurants/3
+GET {{HostAddress}}/api/restaurants/10
+Content-Type: application/json
+Authorization: Bearer {{token}}
 
 ###
 DELETE {{HostAddress}}/api/restaurants/5000
@@ -33,9 +44,10 @@ Content-Type: application/json
 ###
 POST {{HostAddress}}/api/restaurants
 Content-Type: application/json
+Authorization: Bearer {{token}}
 
 {
-  "Name": "Crispy Bites",
+  "Name": "Crispy Bites 4",
   "Description": "A culinary experience like no other",
   "Category": "Indian",
   "HasDelivery": true,
@@ -101,4 +113,42 @@ Authorization: Bearer {{token}}
 {
   "dateOfBirth": "2001-03-04",
   "nationality": "Indian"
+}
+
+###
+POST {{HostAddress}}/register
+Content-Type: application/json
+
+{
+  "email": "user@test.com",
+  "password": "Password1!"
+}
+
+###
+POST {{HostAddress}}/login
+Content-Type: application/json
+
+{
+  "email": "user@test.com",
+  "password": "Password1!"
+}
+
+### 
+POST {{HostAddress}}/api/identity/addUserRole
+Content-Type: application/json
+Authorization: Bearer {{token2}}
+
+{
+  "userEmail": "testuser@test.com",
+  "roleName": "Admin"
+}
+
+###
+POST {{HostAddress}}/api/identity/removeUserRole
+Content-Type: application/json
+Authorization: Bearer {{token2}}
+
+{
+  "email": "testuser@test.com",
+  "roleName": "Admin"
 }
